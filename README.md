@@ -13,3 +13,6 @@ then you go: `daphne django_channel.asgi:application`
 ## configure socket.io client to use websocket as transport layer protocol
 because I only route websocket to consumers, socketio client must use websocket to 
 communicate with the server, other http traffic is routed the traditional way
+
+
+the chat socketio demo was taken from [here](https://github.com/miguelgrinberg/python-socketio)
